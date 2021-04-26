@@ -20,6 +20,7 @@ int main() {
    std::cout << "Planet 5 - Saturn\n";
    std::cout << "Planet 6 - Uranus\n";
    std::cout << "Planet 7 - Neptune\n";
+   std::cout << "Planet 8 - Pluto\n";
   
    std:: cout << "Enter your selected planet number.\n";
    std::cin >> planetnum;
