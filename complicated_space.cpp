@@ -1,7 +1,6 @@
 #include <iostream>
 #include <chrono>
 #include <thread>
-#include <iomanip>
 
 using namespace std::chrono_literals;
 
@@ -28,49 +27,59 @@ int main() {
    std::cout << "Planet 5 - Saturn\n";
    std::cout << "Planet 6 - Uranus\n";
    std::cout << "Planet 7 - Neptune\n";
+   std::cout << "Planet 8 - Pluto\n";
   
    std:: cout << "Enter your selected planet number.\n";
    std::cin >> planetnum;
 
+   double Mer = 0.38;
+   double Ven = 0.91;
+   double Mar = 0.38;
+   double Jup = 2.34;
+   double Sat = 0.93;
+   double Ura = 0.92;
+   double Nep = 1.12;
+   double Plu = 0.07;
+
   switch(planetnum) {
 
     case 1 :
-      plaweight = eaweight * 0.38;
+      plaweight = eaweight * Mer;
       std::cout << "Your planet weight on " << a << " is " << plaweight << "kg.\n";
       break;
 
     case 2 :
-      plaweight = eaweight * 0.91;
+      plaweight = eaweight * Ven;
       std::cout << "Your planet weight on " << b << " is " << plaweight << "kg.\n";
       break;
 
     case 3 :
-      plaweight = eaweight * 0.38;
+      plaweight = eaweight * Mar;
       std::cout << "Your planet weight on " << c << " is " << plaweight << "kg.\n";
       break;
 
     case 4 :
-      plaweight = eaweight * 2.34;
+      plaweight = eaweight * Jup;
       std::cout << "Your planet weight on " << d << " is " << plaweight << "kg.\n";
       break;
 
     case 5 :
-      plaweight = eaweight * 0.93;
+      plaweight = eaweight * Sat;
       std::cout << "Your planet weight on " << e << " is " << plaweight << "kg.\n";
       break;
 
     case 6 :
-      plaweight = eaweight * 0.92;
+      plaweight = eaweight * Ura;
       std::cout << "Your planet weight on " << f << " is " << plaweight << "kg.\n";
       break;
 
     case 7 :
-      plaweight = eaweight * 1.12;
+      plaweight = eaweight * Nep;
       std::cout << "Your planet weight on " << g << " is " << plaweight << "kg.\n";
       break;
 
     case 8 :
-      plaweight = eaweight * 0.07;
+      plaweight = eaweight * Plu;
       std::cout << "Your planet weight on " << h << " is " << plaweight << "kg.\n";
       break;
 
