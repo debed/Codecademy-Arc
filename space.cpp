@@ -7,7 +7,8 @@ using namespace std::chrono_literals;
 
 int main() {
   
-   int eaweight, planetnum, plaweight;
+   double eaweight, plaweight;
+   int planetnum;
 
    std::cout << "Enter your earth weight in kilograms(kg).\n";
    std::cin >> eaweight;
